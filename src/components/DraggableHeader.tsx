@@ -1,5 +1,5 @@
 import { flexRender, type Header } from "@tanstack/react-table";
-import type { IPerson } from "./utils/types";
+import type { IPerson } from "../utils/types";
 import { useRef } from "react";
 import { useDrag, useDrop } from "react-dnd";
 
