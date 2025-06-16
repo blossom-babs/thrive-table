@@ -4,8 +4,44 @@
   padding: 0;
   height: 100%;
 }
-
-table, td, th{
+td{
   border: 1px solid;
-  border-collapse: collapse;
 }
+
+/* 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: #f8f8f8;
+  z-index: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+tbody td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container {
+  height: 600px;
+  overflow: auto;
+  position: relative;
+  border: 1px solid #ddd;
+}
+
+
+tbody tr:hover {
+  background-color: #f5f5f5;
+} */
