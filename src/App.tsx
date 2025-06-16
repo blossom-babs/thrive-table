@@ -9,9 +9,11 @@ import DataTable from './DataTable'
 function App() {
  const data = useMemo(() => generateUserData(500), [])
 
- console.log({data})
   return (
-<DataTable data={data} />
+    <div style={{ padding: '20px' }}>
+    <h1>User Data Table</h1>
+    <DataTable data={data} />
+  </div>
   )
 }
 
